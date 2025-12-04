@@ -1,51 +1,65 @@
-📊 Curso de Análisis de Datos con Python y Ejercicios Prácticos con Pandas y NumPy
+📊 Curso de Análisis de Datos con Python + Ejercicios Prácticos con Pandas y NumPy
 
-¡Bienvenido!
-Este repositorio combina notebooks de estudio y un cuaderno de ejercicios prácticos, diseñados para guiarte desde los fundamentos estadísticos y del análisis de datos hasta la implementación de modelos básicos de machine learning con Python.
+Bienvenido al repositorio oficial del Curso de Análisis de Datos con Python, complementado con un notebook adicional de 20 ejercicios prácticos que fortalecen habilidades en manipulación y análisis de datos usando NumPy y Pandas.
 
-Incluye tanto contenido conceptual como actividades prácticas para reforzar habilidades esenciales en el manejo de datos.
+Este repositorio está diseñado para que avances desde conceptos estadísticos fundamentales hasta la creación de modelos predictivos con Python.
+
+📌 Tabla de Contenido
+
+Descripción General
+
+Notebooks del Curso
+
+Notebook de Ejercicios Prácticos
+
+Tecnologías Utilizadas
 
 📜 Descripción General
 
-Este curso y conjunto de ejercicios fueron creados para que el estudiante:
+Este repositorio integra todo lo necesario para aprender y practicar análisis de datos con Python.
+Incluye:
 
-Comprenda y aplique conceptos estadísticos fundamentales.
+🔹 Notebooks teórico-prácticos, donde aprenderás:
 
-Desarrolle habilidad en la manipulación de datos con NumPy y Pandas.
+Medidas estadísticas fundamentales
 
-Realice análisis exploratorio de datos mediante visualización y estadísticas.
+Pruebas de normalidad
 
-Preprocese información para entrenar modelos predictivos.
+Correlaciones
 
-Modele relaciones entre variables mediante regresión lineal simple y múltiple.
+Preprocesamiento para machine learning
 
-Exporte y documente resultados obtenidos durante el análisis.
+Regresión lineal simple y múltiple
 
-El repositorio está dividido en:
+Evaluación de modelos predictivos
 
-1️⃣ Notebooks de aprendizaje teórico–práctico
-2️⃣ Notebook de ejercicios progresivos (Perdomo_CaviedesT1.ipynb)
+🔹 Un notebook de ejercicios, con actividades progresivas enfocadas en:
 
-📚 Contenido del Curso
+NumPy (arrays, operaciones básicas, cálculos)
 
-A continuación se describen los notebooks incluidos en la sección de aprendizaje:
+Pandas (DataFrames, filtrado, agrupaciones, ordenamiento, exportación)
 
-📘 estadisticas_descriptivas.ipynb
+Manipulación real de datos tipo "ventas"
+
+Este repositorio te lleva desde cero hasta la aplicación práctica en análisis y modelado.
+
+📚 Notebooks del Curso
+📘 1. estadisticas_descriptivas.ipynb
 
 Nivel: Intermedio
 Temas:
 
-Media, mediana y moda
+Media, mediana, moda
 
 Varianza y desviación estándar
 
-Tests de normalidad (Shapiro-Wilk, D’Agostino-Pearson)
+Tests de normalidad (Shapiro–Wilk, D’Agostino-Pearson)
 
 Correlación no paramétrica (Spearman, Kendall)
 
-Normalización (Min-Max Scaling)
+Normalización Min–Max
 
-📗 analisis_estadistico_dataframe.ipynb
+📗 2. analisis_estadistico_dataframe.ipynb
 
 Nivel: Intermedio
 Temas:
@@ -56,78 +70,65 @@ Creación de datos simulados
 
 Visualización por columnas
 
-Matrices de correlación y heatmaps
+Matriz de correlación
 
-📙 regresion_lineal_completa.ipynb
+Heatmaps
+
+📙 3. regresion_lineal_completa.ipynb
 
 Nivel: Intermedio–Avanzado
 Temas:
 
 Regresión lineal simple y múltiple
 
-EDA con gráficos de distribución y correlación
+Análisis exploratorio (EDA)
 
-División de datos (train/test)
+División train/test
 
 Entrenamiento con scikit-learn
 
-Visualización de la regresión
+Visualización de modelos
 
-Métricas de evaluación (R², MAE, MSE, RMSE)
+Métricas: R², MAE, MSE, RMSE
 
-Predicción con nuevos datos
+Predicciones con datos nuevos
 
-📝 Ejercicios Prácticos
-Notebook: Perdomo_CaviedesT1.ipynb
+📝 Notebook de Ejercicios Prácticos
+Perdomo_CaviedesT1.ipynb
 
-Este notebook contiene 20 ejercicios progresivos que permiten reforzar el uso de NumPy y Pandas mediante actividades directas.
+Este notebook contiene 20 ejercicios progresivos para practicar NumPy y Pandas desde cero.
 
-🔎 Contenido de los ejercicios
+🔎 Temas incluidos
 
-Importación de librerías (NumPy y Pandas).
+Importación de librerías
 
-Creación de arrays numéricos.
+Creación de arrays con NumPy
 
-Construcción de un DataFrame base (df_ventas).
+Construcción de DataFrames
 
-Mostrar las primeras 7 filas.
-5–10. Filtrado, selección y cálculos básicos.
-11–15. Manipulación del DataFrame:
+Filtrado, selección y operaciones matemáticas
 
-Cálculo de valores totales
+Cálculo de ingresos
 
-Eliminación de columnas
+Renombrado y eliminación de columnas
 
-Renombrado de campos
+Ordenamiento de datos
 
-Identificación de máximos/mínimos
+Agrupaciones por ciudad y producto
 
-Reemplazo de valores
+Métricas múltiples por grupo
 
-Ordenamiento por ingreso total.
+Exportación a CSV (reporte_ventas.csv)
 
-Agrupación por ciudad.
-
-Agrupación por producto con métricas múltiples.
-
-Identificación del producto con mayor ingreso total.
-
-Exportación del DataFrame a reporte_ventas.csv.
-
-Este cuaderno es ideal para reforzar habilidades previas adquiridas en los notebooks principales del curso.
+📌 Este notebook es ideal para reforzar todo lo visto en el curso.
 
 🛠️ Tecnologías Utilizadas
-
-Python 3
-
-NumPy
-
-Pandas
-
-SciPy
-
-Matplotlib y Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
+Tecnología	Uso
+Python 3	Lenguaje principal del curso
+NumPy	Manejo de arrays y operaciones numéricas
+Pandas	Manipulación de datos tabulares
+SciPy	Pruebas estadísticas avanzadas
+Matplotlib	Gráficos básicos
+Seaborn	Gráficos estadísticos
+Scikit-learn	Preprocesamiento y modelos ML
+Jupyter Notebook	Entorno interactivo de trabajo
